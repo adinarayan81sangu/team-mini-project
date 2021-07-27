@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { CustomvalidatorsService } from 'src/app/Services/customvalidators.service';
-import { confirmpasswordvalidator } from './confirmpassword';
-import { RegisterModel } from './register model';
 
 @Component({
   selector: 'app-register',
